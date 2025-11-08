@@ -279,7 +279,7 @@ function guap_collision_scan(o,guaps)
 		if col(o,guap) then
 			sfx(1)
 			o.wealth+=1
-			del(guap,guaps)
+			del(guaps,guap)
 		end
 	end
 end
